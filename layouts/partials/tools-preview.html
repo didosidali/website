@@ -5,7 +5,8 @@
       {{ $icons := slice "python" "pytorch" "react" "tailwind" "django" "huggingface" }}
       {{ range $icon := $icons }}
         <div class="transition-transform duration-200 hover:scale-110">
-          <img src="/icons-png/{{ $icon }}.png" alt="{{ $icon }}" class="w-12 h-12" />
+          {{ $urlbase := absURL "" }}
+          <img src="{{ $urlbase }}icons-png/{{ $icon }}.png" alt="{{ $icon }}" class="w-12 h-12" />
         </div>
       {{ end }}
     </div>
