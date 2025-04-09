@@ -1,0 +1,20 @@
+[programming_languages]
+other = "Programming Languages"
+
+[data_science_machine_learning]
+other = "Data Science & Machine Learning"
+
+[frontend_development]
+other = "Frontend Development"
+
+
+[backend_development]
+other = "Backend Development"
+
+[Databases]
+other = "Databases"
+
+[documents_design]
+other = "Documents & Design"
+
+

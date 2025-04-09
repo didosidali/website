@@ -1,0 +1,128 @@
+baseURL = "https://your-portfolio.com/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Sid Ali Hamideche"
+theme = ""
+enableRobotsTXT = true
+
+[params]
+  github = "https://github.com/yourusername"
+  linkedin = "https://www.linkedin.com/in/sid-ali-hamideche-350071151/"
+  scholar = "https://scholar.google.com/citations?user=LU-eHeYAAAAJ&hl=fr"
+  email = "sid-ali.hamideche@protonmail.com"
+  tagline = "Data Scientist • Machine Learning • Full-Stack Dev"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    [languages.en.params]
+      name = "Sid Ali Hamideche"
+      description = "I'm a passionate developer and designer with a knack for building creative solutions. Let's connect and collaborate on exciting projects!"
+
+      [[languages.en.params.experience]]
+        title = "Research Engineer & PhD candidate"
+        company = "Nokia Bell Labs & University of Rennes"
+        location = "Massy/Nozay/Rennes, France"
+        period = "June 2020 - Decemeber 2024"
+        description = "Context-aware mobile networks, Beyond 5G, 6G, AI/ML enhanced mobile networks, Deep Learning"
+
+      [[languages.en.params.experience]]
+        title = "Software Engineer"
+        company = "Altim France"
+        location = "Boulogne-Billancourt, France"
+        period = "November 2019 - January 2020"
+        description = ""
+
+      [[languages.en.params.experience]]
+        title = "Computer vision and machine learning Internship"
+        company = "VEDECOM"
+        location = "Versailles, France"
+        period = "March 2019 - September 2019"
+        description = "Unsupervised and self-supervised obstacle detection in the context of self-driving cars"
+
+      [[languages.en.params.experience]]
+        title = "R&D Engineer"
+        company = "HB Technologies"
+        location = "Algiers, Algeria"
+        period = "June 2019 - August 2019"
+        description = ""
+
+      [[languages.en.params.experience]]
+        title = "Image processing internship"
+        company = "Laboratoire de Recherche en Intelligence Artificielle (LRIA)"
+        location = "Algiers, Algeria"
+        period = "February 2017 - June 2017"
+        description = ""
+
+      [[languages.en.params.experience]]
+        title = "Image processing internship"
+        company = "Laboratoire de Recherche en Intelligence Artificielle (LRIA)"
+        location = "Algiers, Algeria"
+        period = "February 2015 - June 2015"
+        description = ""
+
+      [[languages.en.params.education]]
+        degree = "PhD in computer science (BAC+8): Machine learning, Context-aware networks, 5G networks and beyond"
+        school = "Nokia Bell Labs & University of Rennes"
+        location = "Massy/Nozay/Rennes, France"
+        period = "2020 – 2024"
+       
+      [[languages.en.params.education]]
+        degree = "Master's (BAC+5) in Machine learning, Information and Content (AIC)"
+        school = "Paris-Saclay University"
+        location = "Orsay, France"
+        period = "2018 – 2019"
+
+      [[languages.en.params.education]]
+        degree = "Master's (BAC+5) intelligent computer systems (Systèmes Informatiques Intelligents)"
+        school = "University of Sciences and Technology Houari Boumediene"
+        location = "Algiers, Algeria"
+        period = "2015 – 2017"
+
+      [[languages.en.params.education]]
+        degree = "Bachelor’s Degree (BAC+3) in Information systems and software engineering (Ingénierie des Systèmes d'Information et des Logiciels)"
+        school = "University of Sciences and Technology Houari Boumediene"
+        location = "Algiers, Algeria"
+        period = "2012 – 2015"
+
+
+      [[languages.en.params.skills]]
+        category = "Data Science"
+        main = ["python", "pandas", "numpy", "scikit-learn"]
+        other = ["matlab", "julia"]
+      
+      [[languages.en.params.skills]]
+        category = "Deep Learning"
+        main = ["pytorch"]
+        other = ["tensorflow", "keras"]
+      
+      [[languages.en.params.skills]]
+        category = "Frontend"
+        main = ["react", "tailwind"]
+        other = ["vue", "bootstrap"]
+      
+      [[languages.en.params.skills]]
+        category = "Backend"
+        main = ["django", "flask"]
+        other = ["nodejs", "express"]
+      
+      [[languages.en.params.skills]]
+        category = "Docs & Writing"
+        main = ["latex", "markdown"]
+        other = ["libreoffice"]
+      
+      [[languages.en.params.skills]]
+        category = "Desktop Tools"
+        main = ["kitty", "river", "neovim"]
+        other = ["vscode", "sway", "gnome"]
+ 
+  [languages.fr]
+    languageName = "Français"
+    weight = 2
+    contentDir = "content/fr"
+    [languages.fr.params]
+      name = "Sid Ali HAMIDECHE"
+      description = "Je suis un développeur et designer passionné ayant un don pour créer des solutions créatives. Connectons-nous et collaborons sur des projets excitants !"
+

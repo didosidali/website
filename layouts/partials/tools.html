@@ -1,0 +1,70 @@
+<!-- Skills Section -->
+
+
+<section id="tools" class="py-16 bg-white dark:bg-gray-900">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-12 text-center">Skills & Tools</h2>
+
+    <!-- Tools Categories -->
+    {{ range .Site.Data.tools.categories }}
+      <div class="mb-20">
+        <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">{{ i18n .name }}</h3>
+
+        <div class="grid grid-cols-3 gap-8">
+          <!-- Primary Tools -->
+          <div class="flex flex-col">
+            <h4 class="text-xl font-medium text-left mb-8">Primary Tools</h4>
+            <div class="grid grid-cols-3 gap-8">
+              {{ range .primary }}
+                <div class="flex flex-col items-center text-center">
+                  <div class="icon-wrapper">
+                    <img src="/icons-png/{{ .icon }}.png" alt="{{ .name }} icon" class="w-12 h-12 object-contain mb-2">
+                  </div>
+                  <span class="text-sm font-medium">{{ .name }}</span>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+
+          <!-- Empty Column for Spacing -->
+          <div></div>
+
+          <!-- Other Tools -->
+          <div class="flex flex-col">
+            <h4 class="text-xl font-medium text-left mb-8">Other Tools</h4>
+            <div class="grid grid-cols-3 gap-8">
+              {{ range .others }}
+                <div class="flex flex-col items-center text-center">
+                  <div class="icon-wrapper">
+                    <img src="/icons-png/{{ .icon }}.png" alt="{{ .name }} icon" class="w-12 h-12 object-contain mb-2">
+                  </div>
+                  <span class="text-sm font-medium">{{ .name }}</span>
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+    
+    <div class="mb-20">
+      <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">Developing environment and other tools I use</h3>
+
+        <!-- Primary Tools -->
+        <div class="flex flex-col">
+          <div class="grid grid-cols-9 gap-8">
+            {{ range .Site.Data.tools.others }}
+              <div class="flex flex-col items-center text-center">
+                <div class="icon-wrapper">
+                  <img src="/icons-png/{{ .icon }}.png" alt="{{ .name }} icon" class="w-12 h-12 object-contain mb-2">
+                </div>
+                <span class="text-sm font-medium">{{ .name }}</span>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+    </div>
+
+  </div>
+</section>
+

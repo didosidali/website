@@ -1,0 +1,42 @@
+<!-- Hero / Intro Section -->
+<section class="min-h-screen flex flex-col justify-center items-center text-center px-6 dark:bg-gray-900 dark:text-white">
+  <div class="container">
+    <!-- Profile Picture -->
+    <img src="/images/profile.jpg" alt="Profile Picture" class="w-96 h-96 mx-auto mb-4">
+
+    <!-- Name & Tagline -->
+    <h1 class="text-5xl font-semibold">{{ .Site.Params.name }}</h1>
+    <p class="text-xl text-gray-600 mb-6">{{ .Site.Params.tagline }}</p>
+
+    <!-- Short Description -->
+    <p class="text-base text-gray-700 mb-6">
+    {{ .Site.Params.description }}
+    </p>
+
+    <!-- Social Media Links with Larger Icons -->
+    <div class="social-links mt-4">
+      <a href="{{ .Site.Params.linkedin }}" class="text-blue-500 mx-4 text-5xl">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="{{ .Site.Params.github }}" class="text-gray-800 mx-4 text-5xl">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="{{ .Site.Params.scholar }}" class="text-green-600 mx-4 text-5xl">
+        <i class="fab fa-brands fa-google-scholar"></i>
+      </a>
+    </div>
+
+    <!-- Buttons (Contact Me & Download Resume) -->
+    <div class="mt-6">
+      <a href="#contact" class="bg-blue-500 text-white py-3 px-8 rounded-full text-lg mr-6 hover:bg-blue-600 transition-all">Contact Me</a>
+      <a href="/files/Resume.pdf" download class="bg-gray-800 text-white py-3 px-8 rounded-full text-lg hover:bg-gray-700 transition-all">Download Resume</a>
+    </div>
+
+    <a href="#m" class="scroll-arrow mx-auto mt-20">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" class="text-blue-600 hover:text-blue-800"/>
+      </svg>
+    </a>
+  </div>
+</section>
+

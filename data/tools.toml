@@ -1,0 +1,250 @@
+[[categories]]
+name = "programming_languages"
+
+  [[categories.primary]]
+  name = "Python"
+  icon = "python"
+
+  [[categories.primary]]
+  name = "JavaScript"
+  icon = "javascript"
+
+  [[categories.primary]]
+  name = "TypeScript"
+  icon = "typescript"
+
+  [[categories.primary]]
+  name = "C/C++"
+  icon = "cpp"
+
+  [[categories.others]]
+  name = "Java"
+  icon = "java"
+
+  [[categories.others]]
+  name = "Lua"
+  icon = "lua"
+
+  [[categories.others]]
+  name = "Rust"
+  icon = "rust"
+
+  [[categories.others]]
+  name = "Zig"
+  icon = "zig"
+
+  [[categories.others]]
+  name = "PHP"
+  icon = "php"
+
+
+[[categories]]
+name = "data_science_machine_learning"
+
+  [[categories.primary]]
+  name = "NumPy"
+  icon = "numpy"
+
+  [[categories.primary]]
+  name = "pandas"
+  icon = "pandas"
+
+  [[categories.primary]]
+  name = "Matplotlib"
+  icon = "matplotlib"
+
+  [[categories.primary]]
+  name = "scikit-learn"
+  icon = "scikit-learn"
+
+  [[categories.others]]
+  name = "Octave"
+  icon = "octave"
+
+  [[categories.primary]]
+  name = "PyTorch"
+  icon = "pytorch"
+
+  [[categories.primary]]
+  name = "TorchRL"
+  icon = "torchrl"
+
+  [[categories.primary]]
+  name = "Hugging Face"
+  icon = "huggingface"
+
+  [[categories.primary]]
+  name = "LlamaIndex"
+  icon = "llamaindex"
+
+  [[categories.primary]]
+  name = "LangGraph"
+  icon = "langgraph"
+
+  [[categories.primary]]
+  name = "LangChain"
+  icon = "langchain"
+
+  [[categories.primary]]
+  name = "TensorBoard"
+  icon = "tensorboard"
+
+  [[categories.primary]]
+  name = "OpenCV"
+  icon = "opencv"
+
+  [[categories.others]]
+  name = "TensorFlow"
+  icon = "tensorflow"
+
+  [[categories.others]]
+  name = "Kubeflow"
+  icon = "kubeflow"
+
+[[categories]]
+name = "frontend_development"
+
+  [[categories.primary]]
+  name = "HTML5"
+  icon = "html5"
+
+  [[categories.primary]]
+  name = "CSS"
+  icon = "css3"
+
+  [[categories.primary]]
+  name = "React"
+  icon = "react"
+
+  [[categories.primary]]
+  name = "Tailwind CSS"
+  icon = "tailwind"
+
+  [[categories.others]]
+  name = "Vue.js"
+  icon = "vuejs"
+
+  [[categories.others]]
+  name = "jQuery"
+  icon = "jquery"
+
+  [[categories.others]]
+  name = "Bootstrap"
+  icon = "bootstrap"
+
+
+[[categories]]
+name = "backend_development"
+
+  [[categories.primary]]
+  name = "Django"
+  icon = "django"
+
+  [[categories.primary]]
+  name = "Node.js"
+  icon = "nodejs"
+
+  [[categories.primary]]
+  name = "Express.js"
+  icon = "express"
+
+  [[categories.primary]]
+  name = "Nginx"
+  icon = "nginx"
+
+  [[categories.others]]
+  name = "WordPress"
+  icon = "wordpress"
+
+  [[categories.others]]
+  name = "Hugo"
+  icon = "hugo"
+
+
+
+[[categories]]
+name = "databases"
+
+  [[categories.primary]]
+  name = "MariaDB"
+  icon = "mariadb"
+
+  [[categories.primary]]
+  name = "MongoDB"
+  icon = "mongodb"
+
+  [[categories.others]]
+  name = "SQLite"
+  icon = "sqlite"
+
+  [[categories.others]]
+  name = "PostgreSQL"
+  icon = "postgresql"
+
+[[categories]]
+name = "documents_design"
+
+  [[categories.primary]]
+  name = "LaTeX"
+  icon = "latex"
+
+  [[categories.primary]]
+  name = "TikZ"
+  icon = "tikz"
+
+  [[categories.primary]]
+  name = "Inkscape"
+  icon = "inkscape"
+
+  [[categories.primary]]
+  name = "GIMP"
+  icon = "gimp"
+
+  [[categories.others]]
+  name = "LibreOffice"
+  icon = "libreoffice"
+
+[[others]]
+name = "Arch Linux"
+icon = "arch"
+
+[[others]]
+name = "Bash"
+icon = "bash"
+
+[[others]]
+name = "Neovim"
+icon = "neovim"
+
+[[others]]
+name = "Kitty"
+icon = "kitty"
+
+[[others]]
+name = "tmux"
+icon = "tmux"
+
+[[others]]
+name = "River WM"
+icon = "river"
+
+[[others]]
+name = "Docker"
+icon = "docker"
+
+[[others]]
+name = "Kubernetes"
+icon = "kubernetes"
+
+[[others]]
+name = "QEMU"
+icon = "qemu"
+
+[[others]]
+name = "FFmpeg"
+icon = "ffmpeg"
+
+[[others]]
+name = "ImageMagick"
+icon = "imagemagick"
+

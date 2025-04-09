@@ -1,0 +1,18 @@
+[programming_languages]
+other = "Langages de programmation"
+
+[data_science_machine_learning]
+other = "Science des données et apprentissage automatique"
+
+[frontend_development]
+other = "Développement frontend"
+
+[backend_development]
+other = "Développement backend"
+
+[Databases]
+other = "Bases de données"
+
+[documents_design]
+other = "Documents & Conception"
+

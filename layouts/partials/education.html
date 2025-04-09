@@ -1,0 +1,14 @@
+<!-- Education Section -->
+<section class="py-16">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center">Education</h2>
+    {{ range .Site.Params.education }}
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold">{{ .degree }}</h3>
+        <p class="text-sm text-gray-500">{{ .school }} – {{ .location }}</p>
+        <p class="text-sm text-gray-500">{{ .period }}</p>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
