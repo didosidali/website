@@ -1,4 +1,4 @@
-baseURL = "https://didosidali.github.io/website/"
+baseURL = "//didosidali.github.io/website/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Sid Ali Hamideche"
