@@ -21,7 +21,7 @@
     dir = ':cacheDir/modules'
     maxAge = -1
 
-baseURL = "https://your-portfolio.com/"
+baseURL = "https://didosidali.github.io/website/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Sid Ali Hamideche"
