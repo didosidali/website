@@ -19,7 +19,8 @@ enableRobotsTXT = true
     contentDir = "content/en"
     [languages.en.params]
       name = "Sid Ali Hamideche"
-      description = "I'm a passionate developer and designer with a knack for building creative solutions. Let's connect and collaborate on exciting projects!"
+      resumeName = "resume_en.pdf"
+      description = "I'm a passionate developer with a PhD degree in computer science. My main area of expertise is in data processing and training machine learning models. I also have expertise in building tools, including AI tools, REST APIs, and web interfaces, among others. Let's connect and collaborate on exciting projects!"
 
       [[languages.en.params.experience]]
         title = "Research Engineer & PhD candidate"
@@ -88,41 +89,77 @@ enableRobotsTXT = true
         period = "2012 – 2015"
 
 
-      [[languages.en.params.skills]]
-        category = "Data Science"
-        main = ["python", "pandas", "numpy", "scikit-learn"]
-        other = ["matlab", "julia"]
-      
-      [[languages.en.params.skills]]
-        category = "Deep Learning"
-        main = ["pytorch"]
-        other = ["tensorflow", "keras"]
-      
-      [[languages.en.params.skills]]
-        category = "Frontend"
-        main = ["react", "tailwind"]
-        other = ["vue", "bootstrap"]
-      
-      [[languages.en.params.skills]]
-        category = "Backend"
-        main = ["django", "flask"]
-        other = ["nodejs", "express"]
-      
-      [[languages.en.params.skills]]
-        category = "Docs & Writing"
-        main = ["latex", "markdown"]
-        other = ["libreoffice"]
-      
-      [[languages.en.params.skills]]
-        category = "Desktop Tools"
-        main = ["kitty", "river", "neovim"]
-        other = ["vscode", "sway", "gnome"]
- 
   [languages.fr]
     languageName = "Français"
     weight = 2
     contentDir = "content/fr"
     [languages.fr.params]
       name = "Sid Ali HAMIDECHE"
-      description = "Je suis un développeur et designer passionné ayant un don pour créer des solutions créatives. Connectons-nous et collaborons sur des projets excitants !"
+      resumeName = "resume_fr.pdf"
+      description = "Je suis un développeur passionné, titulaire d'un doctorat en informatique. Mon principal domaine d'expertise est le traitement des données et l'entraînement des modèles d'apprentissage automatique. J'ai également une expertise dans le développement d'outils, y compris les outils d'IA, les API REST et les interfaces web, entre autres. Prenons contact et collaborons sur des projets passionnants !"
 
+      [[languages.fr.params.experience]]
+        title = "Ingénieur de recherche & doctorant"
+        company = "Nokia Bell Labs & Université de Rennes"
+        location = "Massy/Nozay/Rennes, France"
+        period = "Juin 2020 - Décembre 2024"
+        description = "Réseaux mobiles sensibles au contexte, Au-delà de la 5G, 6G, Réseaux mobiles améliorés par l'IA/ML, Apprentissage profond"
+
+      [[languages.fr.params.experience]]
+        title = "Ingénieur logiciel"
+        company = "Altim France"
+        location = "Boulogne-Billancourt, France"
+        period = "Novembre 2019 - Janvier 2020"
+        description = ""
+
+      [[languages.fr.params.experience]]
+        title = "Stage en vision par ordinateur et apprentissage automatique"
+        company = "VEDECOM"
+        location = "Versailles, France"
+        period = "Mars 2019 - Septembre 2019"
+        description = "Détection d'obstacles non supervisée et auto-supervisée dans le contexte des voitures autonomes"
+
+      [[languages.fr.params.experience]]
+        title = "Ingénieur R&D"
+        company = "HB Technologies"
+        location = "Alger, Algérie"
+        period = "Juin 2019 - Août 2019"
+        description = ""
+
+      [[languages.fr.params.experience]]
+        title = "Stage en traitement d'images"
+        company = "Laboratoire de Recherche en Intelligence Artificielle (LRIA)"
+        location = "Alger, Algérie"
+        period = "Février 2017 - Juin 2017"
+        description = ""
+
+      [[languages.fr.params.experience]]
+        title = "Stage en traitement d'images"
+        company = "Laboratoire de Recherche en Intelligence Artificielle (LRIA)"
+        location = "Alger, Algérie"
+        period = "Février 2015 - Juin 2015"
+        description = ""
+
+      [[languages.fr.params.education]]
+        degree = "Doctorat en informatique (BAC+8) : Apprentissage automatique, Réseaux sensibles au contexte, Réseaux 5G et au-delà"
+        school = "Nokia Bell Labs & Université de Rennes"
+        location = "Massy/Nozay/Rennes, France"
+        period = "2020 – 2024"
+
+      [[languages.fr.params.education]]
+        degree = "Master (BAC+5) en apprentissage automatique, Information et Contenu (AIC)"
+        school = "Université Paris-Saclay"
+        location = "Orsay, France"
+        period = "2018 – 2019"
+
+      [[languages.fr.params.education]]
+        degree = "Master (BAC+5) en Systèmes Informatiques Intelligents"
+        school = "Université des Sciences et de la Technologie Houari Boumediene"
+        location = "Alger, Algérie"
+        period = "2015 – 2017"
+
+      [[languages.fr.params.education]]
+        degree = "Licence (BAC+3) en systèmes d'information et ingénierie des logiciels (Ingénierie des Systèmes d'Information et des Logiciels)"
+        school = "Université des Sciences et de la Technologie Houari Boumediene"
+        location = "Alger, Algérie"
+        period = "2012 – 2015"

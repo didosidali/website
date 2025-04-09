@@ -10,9 +10,23 @@ other = "Développement frontend"
 [backend_development]
 other = "Développement backend"
 
-[Databases]
+[databases]
 other = "Bases de données"
 
 [documents_design]
 other = "Documents & Conception"
 
+[main_tools]
+other = "Outils principaux"
+
+[other_tools]
+other = "Autres"
+
+[core_stack]
+other = "Outils"
+
+[more_tools]
+other = "Voir tous les outils que j'utilise"
+
+[dev_env]
+other = "Environnement de développement et autres outils que j'utilise"

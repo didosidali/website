@@ -213,6 +213,10 @@ name = "Bash"
 icon = "bash"
 
 [[others]]
+name = "Git"
+icon = "git"
+
+[[others]]
 name = "Neovim"
 icon = "neovim"
 

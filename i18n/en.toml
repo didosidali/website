@@ -7,14 +7,26 @@ other = "Data Science & Machine Learning"
 [frontend_development]
 other = "Frontend Development"
 
-
 [backend_development]
 other = "Backend Development"
 
-[Databases]
+[databases]
 other = "Databases"
 
 [documents_design]
 other = "Documents & Design"
 
+[main_tools]
+other = "Primary Tools"
 
+[other_tools]
+other = "Also use"
+
+[core_stack]
+other = "Tools"
+
+[more_tools]
+other = "View all the tools I use"
+
+[dev_env]
+other = "Development environment and other tools I use"

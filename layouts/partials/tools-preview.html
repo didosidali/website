@@ -1,6 +1,6 @@
-<section id="tech-preview" class="py-16 bg-white dark:bg-zinc-900">
+<section id="tech-preview" class="py-16 bg-gray-50 dark:bg-zinc-900">
   <div class="max-w-5xl mx-auto px-4 text-center">
-    <h2 class="text-3xl font-semibold text-zinc-800 dark:text-zinc-100 mb-6">Core Tech Stack</h2>
+    <h2 class="text-3xl font-semibold text-zinc-800 dark:text-zinc-100 mb-6">{{ i18n "core_stack" }}</h2>
     <div class="flex justify-center flex-wrap gap-6 items-center mb-8">
       {{ $icons := slice "python" "pytorch" "react" "tailwind" "django" "huggingface" }}
       {{ range $icon := $icons }}
@@ -10,7 +10,7 @@
       {{ end }}
     </div>
     <a href="#tools" class="inline-block mt-4 px-6 py-2 rounded-md bg-zinc-900 text-blue dark:bg-white dark:text-zinc-900 text-sm font-medium hover:bg-zinc-700 dark:hover:bg-zinc-100 transition-colors">
-      View all tools ↓
+      {{ i18n "more_tools" }} ↓
     </a>
   </div>
 </section>

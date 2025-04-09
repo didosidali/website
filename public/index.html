@@ -37,18 +37,16 @@
       
     </div>
     
-    <button id="dark-mode-toggle" class="ml-4 text-sm">
-      🌙
-    </button>
+
     
   </div>
 </header>
 
   
 <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 dark:bg-gray-900 dark:text-white">
-  <div class="container">
+  <div class="container place-items-center">
     
-    <img src="/images/profile.jpg" alt="Profile Picture" class="w-96 h-96 mx-auto mb-4">
+    <img src="/images/profile.jpg" alt="Profile Picture" class="w-64 h-64 mx-auto mb-4">
 
     
     <h1 class="text-5xl font-semibold">Sid Ali Hamideche</h1>
@@ -56,7 +54,7 @@
 
     
     <p class="text-base text-gray-700 mb-6">
-    I&#39;m a passionate developer and designer with a knack for building creative solutions. Let&#39;s connect and collaborate on exciting projects!
+    I&#39;m a passionate developer with a PhD degree in computer science. My main area of expertise is in data processing and training machine learning models. I also have expertise in building tools, including AI tools, REST APIs, and web interfaces, among others. Let&#39;s connect and collaborate on exciting projects!
     </p>
 
     
@@ -73,10 +71,16 @@
     </div>
 
     
-    <div class="mt-6">
-      <a href="#contact" class="bg-blue-500 text-white py-3 px-8 rounded-full text-lg mr-6 hover:bg-blue-600 transition-all">Contact Me</a>
-      <a href="/files/Resume.pdf" download class="bg-gray-800 text-white py-3 px-8 rounded-full text-lg hover:bg-gray-700 transition-all">Download Resume</a>
-    </div>
+      <div class="mt-10 grid sm:grid-cols-1 lg:grid-cols-2 gap-0 w-1/2 m-auto">
+        
+            <div class="flex flex-col mb-5">
+              <a href="mailto:sid-ali.hamideche@protonmail.com" class="bg-blue-500 text-white py-3 px-8 rounded-full text-lg mr-6 hover:bg-blue-600 transition-all">Contact Me</a>
+              
+            </div>
+            <div class="flex flex-col mb-5">
+              <a href="/static/resume_en.pdf" download class="bg-gray-800 text-white py-3 px-8 rounded-full text-lg hover:bg-gray-700 transition-all">Download Resume</a>
+            </div>
+      </div>
 
     <a href="#m" class="scroll-arrow mx-auto mt-20">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -90,9 +94,9 @@
 
   <div id="m"></div>
 
-  <section id="tech-preview" class="py-16 bg-white dark:bg-zinc-900">
+  <section id="tech-preview" class="py-16 bg-gray-50 dark:bg-zinc-900">
   <div class="max-w-5xl mx-auto px-4 text-center">
-    <h2 class="text-3xl font-semibold text-zinc-800 dark:text-zinc-100 mb-6">Core Tech Stack</h2>
+    <h2 class="text-3xl font-semibold text-zinc-800 dark:text-zinc-100 mb-6">Tools</h2>
     <div class="flex justify-center flex-wrap gap-6 items-center mb-8">
       
       
@@ -122,13 +126,13 @@
       
     </div>
     <a href="#tools" class="inline-block mt-4 px-6 py-2 rounded-md bg-zinc-900 text-blue dark:bg-white dark:text-zinc-900 text-sm font-medium hover:bg-zinc-700 dark:hover:bg-zinc-100 transition-colors">
-      View all tools ↓
+      View all the tools I use ↓
     </a>
   </div>
 </section>
 
   
-<section class="py-16 bg-gray-50">
+<section class="py-16 bg-white">
   <div class="container mx-auto px-4">
     <h2 class="text-3xl font-bold mb-8 text-center">Experience</h2>
     
@@ -173,7 +177,7 @@
 
 
   
-<section class="py-16">
+<section class="py-16 bg-gray-50" >
   <div class="container mx-auto px-4">
     <h2 class="text-3xl font-bold mb-8 text-center">Education</h2>
     
@@ -218,7 +222,7 @@
       <div class="mb-20">
         <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">Programming Languages</h3>
 
-        <div class="grid grid-cols-3 gap-8">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-8">
           
           <div class="flex flex-col">
             <h4 class="text-xl font-medium text-left mb-8">Primary Tools</h4>
@@ -260,7 +264,7 @@
 
           
           <div class="flex flex-col">
-            <h4 class="text-xl font-medium text-left mb-8">Other Tools</h4>
+            <h4 class="text-xl font-medium text-left mb-8">Also use</h4>
             <div class="grid grid-cols-3 gap-8">
               
                 <div class="flex flex-col items-center text-center">
@@ -306,7 +310,7 @@
       <div class="mb-20">
         <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">Data Science &amp; Machine Learning</h3>
 
-        <div class="grid grid-cols-3 gap-8">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-8">
           
           <div class="flex flex-col">
             <h4 class="text-xl font-medium text-left mb-8">Primary Tools</h4>
@@ -404,7 +408,7 @@
 
           
           <div class="flex flex-col">
-            <h4 class="text-xl font-medium text-left mb-8">Other Tools</h4>
+            <h4 class="text-xl font-medium text-left mb-8">Also use</h4>
             <div class="grid grid-cols-3 gap-8">
               
                 <div class="flex flex-col items-center text-center">
@@ -436,7 +440,7 @@
       <div class="mb-20">
         <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">Frontend Development</h3>
 
-        <div class="grid grid-cols-3 gap-8">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-8">
           
           <div class="flex flex-col">
             <h4 class="text-xl font-medium text-left mb-8">Primary Tools</h4>
@@ -478,7 +482,7 @@
 
           
           <div class="flex flex-col">
-            <h4 class="text-xl font-medium text-left mb-8">Other Tools</h4>
+            <h4 class="text-xl font-medium text-left mb-8">Also use</h4>
             <div class="grid grid-cols-3 gap-8">
               
                 <div class="flex flex-col items-center text-center">
@@ -510,7 +514,7 @@
       <div class="mb-20">
         <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">Backend Development</h3>
 
-        <div class="grid grid-cols-3 gap-8">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-8">
           
           <div class="flex flex-col">
             <h4 class="text-xl font-medium text-left mb-8">Primary Tools</h4>
@@ -552,7 +556,7 @@
 
           
           <div class="flex flex-col">
-            <h4 class="text-xl font-medium text-left mb-8">Other Tools</h4>
+            <h4 class="text-xl font-medium text-left mb-8">Also use</h4>
             <div class="grid grid-cols-3 gap-8">
               
                 <div class="flex flex-col items-center text-center">
@@ -575,9 +579,9 @@
       </div>
     
       <div class="mb-20">
-        <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2"></h3>
+        <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">Databases</h3>
 
-        <div class="grid grid-cols-3 gap-8">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-8">
           
           <div class="flex flex-col">
             <h4 class="text-xl font-medium text-left mb-8">Primary Tools</h4>
@@ -605,7 +609,7 @@
 
           
           <div class="flex flex-col">
-            <h4 class="text-xl font-medium text-left mb-8">Other Tools</h4>
+            <h4 class="text-xl font-medium text-left mb-8">Also use</h4>
             <div class="grid grid-cols-3 gap-8">
               
                 <div class="flex flex-col items-center text-center">
@@ -630,7 +634,7 @@
       <div class="mb-20">
         <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">Documents &amp; Design</h3>
 
-        <div class="grid grid-cols-3 gap-8">
+        <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-8">
           
           <div class="flex flex-col">
             <h4 class="text-xl font-medium text-left mb-8">Primary Tools</h4>
@@ -672,7 +676,7 @@
 
           
           <div class="flex flex-col">
-            <h4 class="text-xl font-medium text-left mb-8">Other Tools</h4>
+            <h4 class="text-xl font-medium text-left mb-8">Also use</h4>
             <div class="grid grid-cols-3 gap-8">
               
                 <div class="flex flex-col items-center text-center">
@@ -689,11 +693,11 @@
     
     
     <div class="mb-20">
-      <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">Developing environment and other tools I use</h3>
+      <h3 class="text-blue-900 text-2xl font-semibold mb-6 border-b pb-2">Development environment and other tools I use</h3>
 
         
         <div class="flex flex-col">
-          <div class="grid grid-cols-9 gap-8">
+          <div class="grid lg:grid-cols-9 sm:grid-cols-3 gap-8">
             
               <div class="flex flex-col items-center text-center">
                 <div class="icon-wrapper">
@@ -707,6 +711,13 @@
                   <img src="/icons-png/bash.png" alt="Bash icon" class="w-12 h-12 object-contain mb-2">
                 </div>
                 <span class="text-sm font-medium">Bash</span>
+              </div>
+            
+              <div class="flex flex-col items-center text-center">
+                <div class="icon-wrapper">
+                  <img src="/icons-png/git.png" alt="Git icon" class="w-12 h-12 object-contain mb-2">
+                </div>
+                <span class="text-sm font-medium">Git</span>
               </div>
             
               <div class="flex flex-col items-center text-center">
@@ -782,7 +793,7 @@
 
 
   
-<footer class="py-8 text-center text-sm text-gray-500 dark:text-gray-400">
+<footer class="py-8 text-center text-sm bg-gray-50 text-gray-500 dark:text-gray-400">
   © 2025 Sid Ali Hamideche. 
 </footer>
 
