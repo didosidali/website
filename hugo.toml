@@ -1,3 +1,10 @@
+baseURL = "https://didosidali.github.io/website/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Sid Ali Hamideche"
+theme = ""
+enableRobotsTXT = true
+
 [caches]
   [caches.assets]
     dir = ':resourceDir/_gen'
@@ -21,15 +28,8 @@
     dir = ':cacheDir/modules'
     maxAge = -1
 
-baseURL = "https://didosidali.github.io/website/"
-languageCode = "en-us"
-defaultContentLanguage = "en"
-title = "Sid Ali Hamideche"
-theme = ""
-enableRobotsTXT = true
-
 [params]
-  github = "https://github.com/yourusername"
+  github = "https://github.com/didosidali"
   linkedin = "https://www.linkedin.com/in/sid-ali-hamideche-350071151/"
   scholar = "https://scholar.google.com/citations?user=LU-eHeYAAAAJ&hl=fr"
   email = "sid-ali.hamideche@protonmail.com"
